@@ -1,0 +1,17 @@
+# *** THIS PACKAGE HAS SPECIAL LICENSING CONDITIONS.  PLEASE
+#     CONSULT THE OWNERS AND opensource-licensing@google.com BEFORE
+#     DEPENDING ON IT IN YOUR PROJECT. ***
+name: "montserrat"
+description:
+    "monty is a dope font. or typeface if you want to be pretentious."
+
+third_party {
+  url {
+    type: ARCHIVE
+    value: "https://fonts.google.com/specimen/Montserrat"
+  }
+  version: "2.001"
+  license_note: "contains OFL fonts"
+  license_type: BY_EXCEPTION_ONLY
+  last_upgrade_date { year: 2020 month: 12 day: 14 }
+}
