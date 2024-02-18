@@ -7,12 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-termone.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-termone.xml \
-	$(LOCAL_PATH)/libs/lib/libv4a_re_armeabi-v7a.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libv4a_re.so \
-	$(LOCAL_PATH)/libs/lib64/libv4a_re_arm64-v8a.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libv4a_re.so \
-	$(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.xml 
-
-PRODUCT_PACKAGES += \
-	adaway \
-	terminalemulator \
-	v4a_re
-	
+	$(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.xml \
+	$(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR/lib64/libv4a_re.so
+	$(LOCAL_PATH)/configs/audio/lib:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libv4a_re.so

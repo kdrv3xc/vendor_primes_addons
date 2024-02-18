@@ -19,17 +19,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ksu",
-	owner: "primes",
-	apk: "proprietary/system_ext/app/ksu.apk",
-	certificate: "preinstalled",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "term",
 	owner: "primes",
 	apk: "proprietary/system_ext/app/term.apk",

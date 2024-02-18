@@ -67,11 +67,10 @@ PRODUCT_COPY_FILES += \
     vendor/primes/primes/proprietary/system_ext/primesenv/xbin/unpack_bootimg:$(TARGET_COPY_OUT_SYSTEM_EXT)/primesenv/xbin/unpack_bootimg \
     vendor/primes/primes/proprietary/system_ext/primesenv/xbin/wcalc:$(TARGET_COPY_OUT_SYSTEM_EXT)/primesenv/xbin/wcalc \
     vendor/primes/primes/proprietary/system_ext/primesenv/xbin/zsh:$(TARGET_COPY_OUT_SYSTEM_EXT)/primesenv/xbin/zsh \
-    vendor/primes/primes/proprietary/vendor/lib/libv4a_re_armeabi-v7a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libv4a_re_armeabi-v7a.so \
-    vendor/primes/primes/proprietary/vendor/lib64/libv4a_re_arm64-v8a.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libv4a_re_arm64-v8a.so
+    vendor/primes/primes/proprietary/vendor/lib/libv4a_re.so:$(TARGET_COPY_OUT_VENDOR)/lib/libv4a_re.so \
+    vendor/primes/primes/proprietary/vendor/lib64/libv4a_re.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libv4a_re.so
 
 PRODUCT_PACKAGES += \
     adaway \
-    ksu \
     term \
     v4a_re
