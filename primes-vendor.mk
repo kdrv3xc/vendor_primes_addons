@@ -6,11 +6,12 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/primes/primes
 
 PRODUCT_COPY_FILES += \
-    vendor/primes/primes/proprietary/system_ext/fonts/montserrat/Android.bp:$(TARGET_COPY_OUT_SYSTEM_EXT)/fonts/montserrat/Android.bp \
-    vendor/primes/primes/proprietary/system_ext/fonts/montserrat/METADATA:$(TARGET_COPY_OUT_SYSTEM_EXT)/fonts/montserrat/METADATA \
-    vendor/primes/primes/proprietary/system_ext/fonts/montserrat/MODULE_LICENSE_OFL:$(TARGET_COPY_OUT_SYSTEM_EXT)/fonts/montserrat/MODULE_LICENSE_OFL \
-    vendor/primes/primes/proprietary/system_ext/fonts/montserrat/Montserrat.ttf:$(TARGET_COPY_OUT_SYSTEM_EXT)/fonts/montserrat/Montserrat.ttf \
-    vendor/primes/primes/proprietary/system_ext/fonts/montserrat/NOTICE:$(TARGET_COPY_OUT_SYSTEM_EXT)/fonts/montserrat/NOTICE \
+    vendor/primes/primes/proprietary/system/etc/bash.bashrc:$(TARGET_COPY_OUT_SYSTEM)/etc/bash.bashrc \
+    vendor/primes/primes/proprietary/system/etc/bash_completion:$(TARGET_COPY_OUT_SYSTEM)/etc/bash_completion \
+    vendor/primes/primes/proprietary/system/etc/bash_completion.d/apport_completion:$(TARGET_COPY_OUT_SYSTEM)/etc/bash_completion.d/apport_completion \
+    vendor/primes/primes/proprietary/system/etc/bash_completion.d/git-prompt:$(TARGET_COPY_OUT_SYSTEM)/etc/bash_completion.d/git-prompt \
+    vendor/primes/primes/proprietary/system/etc/profile:$(TARGET_COPY_OUT_SYSTEM)/etc/profile \
+    vendor/primes/primes/proprietary/system/fonts/Roboto-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Roboto-Regular.ttf \
     vendor/primes/primes/proprietary/system_ext/primesenv/xbin/7z:$(TARGET_COPY_OUT_SYSTEM_EXT)/primesenv/xbin/7z \
     vendor/primes/primes/proprietary/system_ext/primesenv/xbin/7za:$(TARGET_COPY_OUT_SYSTEM_EXT)/primesenv/xbin/7za \
     vendor/primes/primes/proprietary/system_ext/primesenv/xbin/7zz:$(TARGET_COPY_OUT_SYSTEM_EXT)/primesenv/xbin/7zz \
@@ -21,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/primes/primes/proprietary/system_ext/primesenv/xbin/curl-config:$(TARGET_COPY_OUT_SYSTEM_EXT)/primesenv/xbin/curl-config \
     vendor/primes/primes/proprietary/system_ext/primesenv/xbin/dialog:$(TARGET_COPY_OUT_SYSTEM_EXT)/primesenv/xbin/dialog \
     vendor/primes/primes/proprietary/system_ext/primesenv/xbin/diff3:$(TARGET_COPY_OUT_SYSTEM_EXT)/primesenv/xbin/diff3 \
+    vendor/primes/primes/proprietary/system_ext/primesenv/xbin/exa:$(TARGET_COPY_OUT_SYSTEM_EXT)/primesenv/xbin/exa \
     vendor/primes/primes/proprietary/system_ext/primesenv/xbin/eza:$(TARGET_COPY_OUT_SYSTEM_EXT)/primesenv/xbin/eza \
     vendor/primes/primes/proprietary/system_ext/primesenv/xbin/fdroidcl:$(TARGET_COPY_OUT_SYSTEM_EXT)/primesenv/xbin/fdroidcl \
     vendor/primes/primes/proprietary/system_ext/primesenv/xbin/file:$(TARGET_COPY_OUT_SYSTEM_EXT)/primesenv/xbin/file \
@@ -67,10 +69,11 @@ PRODUCT_COPY_FILES += \
     vendor/primes/primes/proprietary/system_ext/primesenv/xbin/unpack_bootimg:$(TARGET_COPY_OUT_SYSTEM_EXT)/primesenv/xbin/unpack_bootimg \
     vendor/primes/primes/proprietary/system_ext/primesenv/xbin/wcalc:$(TARGET_COPY_OUT_SYSTEM_EXT)/primesenv/xbin/wcalc \
     vendor/primes/primes/proprietary/system_ext/primesenv/xbin/zsh:$(TARGET_COPY_OUT_SYSTEM_EXT)/primesenv/xbin/zsh \
-    vendor/primes/primes/proprietary/vendor/lib/libv4a_re.so:$(TARGET_COPY_OUT_VENDOR)/lib/libv4a_re.so \
-    vendor/primes/primes/proprietary/vendor/lib64/libv4a_re.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libv4a_re.so
+    vendor/primes/primes/proprietary/vendor/lib/soundfx/libv4a_re.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libv4a_re.so \
+    vendor/primes/primes/proprietary/vendor/lib64/soundfx/libv4a_re.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libv4a_re.so
 
 PRODUCT_PACKAGES += \
     adaway \
+    f-droid \
     term \
     v4a_re
