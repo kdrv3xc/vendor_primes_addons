@@ -45,6 +45,7 @@ android_app_import {
 	owner: "primes",
 	apk: "proprietary/system_ext/app/v4a_re.apk",
 	certificate: "platform",
+	overrides: ["daxService", "MotoDolbyDax"],
 	dex_preopt: {
 		enabled: false,
 	},
